@@ -23,7 +23,7 @@ const Section1 = () => {
                             <h1 className="text-white">New Burger</h1>
                             <h2 className="text-white">White Onion</h2>
                             <p className="text-white pt-2 pb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquam porro earum unde esse reiciendis mollitia ipsam ducimus id quia impedit alias officia eveniet doloribus sequi, magnam voluptatum sed possimus!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquam porro earum unde esse reiciendis mollitia ipsam ducimus id quia impedit alias officia possimus!
                             </p>
                             <Link to="/" className="btn order_now">Order Now</Link>
                         </div>

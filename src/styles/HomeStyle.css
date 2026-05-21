@@ -50,8 +50,54 @@
     padding: 0.5%;
 }
 
+
+
+.about_section{
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url("../assets/about/about-1.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.about_section h2{
+    font-size: 3.5rem;
+}
+
+.about_section p{
+    color: var(--grey);
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.about_wrapper{
+    background: var(--yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.about_box .about_icon img{
+    max-width: 25%;
+}
+
+@media (max-width:992) {
+    .about_section h2{
+        font-size: 2.5rem;
+    }
+    .about_section p{
+        padding: 0;
+    }
+    
+}
+
 @media (max-width:767px) {
     .hero_section .hero_text h1{
         font-weight: 5.5rem;
+    }
+}
+
+@media (max-width:676px) {
+    .hero_section .hero_text h1{
+        font-size: 5.5rem;
     }
 }
